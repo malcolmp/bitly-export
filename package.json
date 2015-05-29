@@ -1,0 +1,26 @@
+{
+  "name": "bitly-export",
+  "description": "Bitly Export",
+  "author": {
+    "name": "Malcolm Poindexter",
+    "email": "malcolm.poindexter@umusic.com"
+  },
+  "main": "./bitly-export.js",
+  "homepage": "https://github.com/malcolmp/bitly-export",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/malcolmp/bitly-export.git"
+  },
+  "dependencies": {
+    "colors": "~0.6.2",
+    "csv2json": "~0.0.4",
+    "node-bitlyapi": "^0.4.0",
+    "optimist": "*",
+    "underscore": "*"
+  },
+  "scripts": {},
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "version": "0.1.0"
+}
